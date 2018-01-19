@@ -1,0 +1,140 @@
+stdClass Object
+(
+    [fields] => stdClass Object
+        (
+            [title] => stdClass Object
+                (
+                    [en-US] => Room 1
+                )
+
+            [content] => stdClass Object
+                (
+                    [en-US] => This is a room content
+
+
+                )
+
+            [banner] => stdClass Object
+                (
+                    [en-US] => stdClass Object
+                        (
+                            [sys] => stdClass Object
+                                (
+                                    [type] => Link
+                                    [linkType] => Asset
+                                    [id] => 64ca1nNNJuwOoKKEmAKkkw
+                                )
+
+                        )
+
+                )
+
+            [audiofile] => stdClass Object
+                (
+                    [en-US] => stdClass Object
+                        (
+                            [sys] => stdClass Object
+                                (
+                                    [type] => Link
+                                    [linkType] => Asset
+                                    [id] => 6HsWkxZVEAYYkI2ae82oSe
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [sys] => stdClass Object
+        (
+            [id] => BadRequest
+            [type] => Entry
+            [version] => 1
+            [createdAt] => 2016-07-04T20:36:08.767Z
+            [createdBy] => stdClass Object
+                (
+                    [sys] => stdClass Object
+                        (
+                            [type] => Link
+                            [linkType] => User
+                            [id] => 080NjbCs6fMLVFRYpn1eGo
+                        )
+
+                )
+
+            [space] => stdClass Object
+                (
+                    [sys] => stdClass Object
+                        (
+                            [type] => Link
+                            [linkType] => Space
+                            [id] => dzar1unljwn5
+                        )
+
+                )
+
+            [contentType] => stdClass Object
+                (
+                    [sys] => stdClass Object
+                        (
+                            [type] => Link
+                            [linkType] => ContentType
+                            [id] => room
+                        )
+
+                )
+
+            [updatedAt] => 2016-07-04T20:36:08.767Z
+            [updatedBy] => stdClass Object
+                (
+                    [sys] => stdClass Object
+                        (
+                            [type] => Link
+                            [linkType] => User
+                            [id] => 080NjbCs6fMLVFRYpn1eGo
+                        )
+
+                )
+
+        )
+
+)
+stdClass Object
+(
+    [sys] => stdClass Object
+        (
+            [type] => Error
+            [id] => UnresolvedLinks
+        )
+
+    [message] => Validation error
+    [details] => stdClass Object
+        (
+            [errors] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [name] => notResolvable
+                            [link] => stdClass Object
+                                (
+                                    [type] => Link
+                                    [linkType] => Asset
+                                    [id] => 6HsWkxZVEAYYkI2ae82oSe
+                                )
+
+                            [path] => Array
+                                (
+                                    [0] => fields
+                                    [1] => audiofile
+                                    [2] => en-US
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [requestId] => 41c8046e5abca0a9e887a656e3fa5c8d
+)
